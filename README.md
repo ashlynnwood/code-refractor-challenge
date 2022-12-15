@@ -9,6 +9,8 @@ N/A
 ## Usage
 To navigate this Horieson website, you can use the navigation bar located in the header. Clicking on each link in the navigation bar will automatically bring you to the corresponding section on the page. 
 
+![Horieson homepage](Develop/assets/images/01-html-css-git-homework-demo.png)
+
 ## Credits
 N/A
 
