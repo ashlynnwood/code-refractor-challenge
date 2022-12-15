@@ -18,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Sets font size of heading and allows navbar to display on same line. */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Applies a different color to span inside of h1 */
 span {
     color: #d9dcd6;
 }
 
+/* Float navbar to the right side and adds spacing inside the top and outside of it to the right. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,21 +38,24 @@ nav {
     font-size: 20px;
 }
 
+/* Removes bullets from list items */
 ul {
     list-style-type: none;
 }
 
+/* Displays list items next to each other horizontally  */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Makes link text color white and removes default underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Hero */
+/* Sets hero's background picture, size dimensions, centered, and spacing below it. */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,24 +70,28 @@ p {
     font-size: 16px;
 }
 
-/* Float applied to images */
+/* Floats the element to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats the element to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Content section */
+/* Sets maximum width of content container, adds space to left outside of it, and allows next section to display next to it. */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Adds 50px space inside of each content box, 20px space on the outside below  */
+/* Sets height dimension, blue background color, and white text */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,16 +101,21 @@ p {
     color: #ffffff;
 }
 
+/* Sets maximum height dimension for images in content section */
 .content-box img {
     max-height: 200px;
 }
 
+/* Increases font-size and adds space below headings in content section */
 .content-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Benefit Section */
+/* Sets blue background, adds outside space to the right, adds 20px space inside on all sides */
+/* Sets height and width dimensions of benefit container */
+/* Clears float and floats container right  */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -112,11 +127,13 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets text color to white and adds space outside element on the bottom */
 .benefit-box {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Centers heading and adds space beneath it */
 .benefit-box h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -129,6 +146,8 @@ p {
 }
 
 /* Footer */
+/* Adds 30px space inside footer, centers it, applies a specific font family. */
+/* Clears float */
 footer {
     padding: 30px;
     clear: both;
@@ -136,6 +155,7 @@ footer {
     text-align: center;
 }
 
+/* Sets font size of heading in footer */
 footer h4 {
     font-size: 20px;
 }
